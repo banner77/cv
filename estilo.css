@@ -1,0 +1,163 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: ;
+
+}
+p{
+    font-size: 16px;
+    margin: 10px;
+    line-height: 16px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+font: size 35PX;;
+}
+h2{
+font-size: 30px;
+}
+h3{
+font-size: 20px;
+}
+body{
+    font-family:  'Open Sans', sans-serif;
+}
+#menu{
+    text-overflow:ellipsis
+    height: 40vh;
+    display: flex;
+    color: #02314b;
+    margin-left: 15px;
+}
+#f-inicio{
+width: 200px;
+margin-left: 50px;
+margin-bottom: 30px;
+}
+#barra{
+    margin: auto;
+    width: 99vmax;
+    height: 50vh;
+    background-color:#02314b;
+    color: #00B4D8;
+    text-decoration-style: wavy;
+    transition: 6s;
+    text-justify: auto;
+    display: flex;
+    list-style:none;
+    justify-content:space-between ;
+    padding: 50px;
+    cursor: context-menu;
+}
+button{
+    padding: 10px 20px;
+    background-color:#43acc1;
+    border-block-end-style:solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer
+}
+button:hover{
+    transform: scale(1.2);
+}
+#SOBRE-MI{
+    margin: 1px 1px 1px 1px;
+    padding: 10px;
+    background-color: #00B4D8;
+}
+.datos-personales{
+    margin-left: 50px;
+}
+.f-perfil2{
+    background-color: #02314b;
+    color: white;
+    padding: 1px 1px 10px 1px;
+}
+
+.foto-perfil{
+    width: 150px;
+    border-color: #02314b;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 150px;
+    margin:5px 10px 10px 0px;
+}
+.f-perfil{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    align-items:cente;
+    background-color: #00B4D8;
+    color: white;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+#dyd{
+    font-style: italic;
+}
+#formacion{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+  height: 100vh;
+  align-items:cente;
+  background-color: #02314b;
+  color: white;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.download-cv{
+  padding: 10px 20px;
+  background-color:#00B4D8;
+  border-block-end-style: double;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer
+}
+.download-cv:hover{
+    transform: scale(1.2);
+}
+   
+#CURRICULUM
+{
+text-align: center;
+padding-top: 40px;
+height: 150px;
+}
+#linkedin{
+    padding: 10px 20px;
+    text-align: center;
+    height: 35px;
+    background-color:#097489;
+    color: #dfeef1;
+    border-color: #03045E;
+    border-block-end-style:groove;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: pointer 
+}
+
+#contacto{
+color: #063f4b;
+text-align: center;
+background-color: rgb(213, 247, 236);
+}
+#formulario
+{
+text-align: center;
+padding-bottom: 5px;
+}
+.para-arriba{
+    color: #950af2;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
